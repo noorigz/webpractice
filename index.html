@@ -1,0 +1,124 @@
+<!--Document type-->
+<<!DOCTYPE html>
+
+  <!--holds everything in one place related to html-->
+  <html lang="en" dir="ltr">
+
+  <!--Hold information about Webpage-->
+  <head>
+
+    <!--meta - give associated data to html text. Characters are encoded in utf 8.
+    UTF 9 is standard encoding, and includes all internationa symbols-->
+    <meta charset="utf-8">
+
+    <!---->
+    <title>Ghazal Noori</title>
+  </head>
+
+  <!--Hold everything that is visible and functional in website.
+Contains content of the website.-->
+  <body>
+    <h1>Paragraphs, text fonts</h1>
+    <h2>Ghazal Noori - heading 2</h2>
+    <h3>Heading 3</h3>
+
+    <hr size="3" color=red>
+
+    <p><i>Testing italicize-i</i></p>
+    <p><em>Testing italicize-em</em></p>
+
+    <p><b>Testing bold-b</b></p>
+    <p><strong>Testing bold-strong</strong></p>
+
+    <h1>Lists, Unordered lists, ordered lists</h1>
+    <h2>Unordered List</h2>
+    <!--unordered list-->
+    <ul>
+      <!--bullet point list-->
+      <li>1</li>
+      <li>2</li>
+    </ul>
+    <ul type=circle>
+      <!--bullet point list-->
+      <li>1</li>
+      <li>2</li>
+    </ul>
+    <ul type=square>
+      <!--bullet point list-->
+      <li>1</li>
+      <li>2</li>
+    </ul>
+
+
+    <h2>Ordered List</h2>
+    <!--ordered list-->
+    <ol type="a" start="3">
+      <!--numbered list-->
+      <li>1</li>
+      <li>2</li>
+    </ol>
+    <ol type="I" start="2">
+      <!--numbered list-->
+      <li>1</li>
+      <li>2</li>
+    </ol>
+
+    <h1>Images</h1>
+    <h2>image source from internet</h2>
+    <!--img - image tag is a self-closing html tag where src(source) attribute has to be specified.
+  ALT (alternative text) - if the browser can not display the image, then it will display a text
+  that describes what the picture is about-->
+    <img align=center src="https://www.outbrain.com/techblog/wp-content/uploads/2017/05/road-sign-361513_960_720.jpg" alt="Test picture" height="100" width="50">
+
+    <h2>image from computer</h2>
+    <img src="C:\Users\Guzel Rakhimova\Pictures/cv-photo.jpg" alt="cv photo" height="100" width="50">
+    <!--paste the picutre into the same folder as the website file, then you do not have to put -->
+    <img src="images/cv-photo.jpg" alt="" height="100" width="50">
+
+    <h1>Links</h1>
+    <!--a - anchor is a linking label, clickable text
+  href contains a URL that the hyperlink points to-->
+    <a href="https://www.linkedin.com/feed/">Ghazal Noori's LinkedIn</a>
+    <a href="contactme.html">Contact ME</a>
+
+    <h1>Tables</h1>
+
+    <table border=1px cellspacing=10>
+      <thead>
+        <tr>
+          <th align=left>Name - th in thead</th>
+          <th align=left>Functionality - specifies headers</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>td in tbody</td>
+          <td>Table Data</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <td>td in tfoot</td>
+        <td>Table foot 2</td>
+      </tfoot>
+    </table>
+    <hr>
+
+    <h1>Aligning picture and text in table</h1>
+
+    <table cellspacing=10>
+      <tr>
+        <td><img src="images/cv-photo.jpg" alt="" height="200" width="100"></td>
+        <td>
+          <p>Ghazal Noori</p>
+          <p>Practicing HTML</p>
+          <p>Biography and picture layed out in table</p>
+        </td>
+      </tr>
+    </table>
+
+    <h1>Forms</h1>
+    <form class="" action="index.html" method="post">
+
+    </form>
+  </body>
+  </html>
